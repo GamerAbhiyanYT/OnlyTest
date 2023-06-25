@@ -10,8 +10,6 @@ local Tab = Gui:AddTab("Recommended")
 
 local Category = Tab:AddCategory("If You Die And Lose Toggle")
 
-local Category = Tab:AddCategory("Press This Button To Bring Up Toggle Back")
-
 local Button = Category:AddButton("Button", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerAbhiyanYT/Explan/main/Toggle"))()
 end)
