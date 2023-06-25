@@ -73,7 +73,7 @@ section:Slider({
    Min = 16,
    Max = 100,
    Def = 16,
-   Callback = function(s)game.Players.LocalPlayer.Character.Humanoid.WalkSpeed end
+   Callback = function()game.Players.LocalPlayer.Character.Humanoid.WalkSpeed end
 })
 
 section:Slider({
@@ -81,15 +81,15 @@ section:Slider({
    Min = 50,
    Max = 100,
    Def = 50,
-   Callback = function(s)game.Players.LocalPlayer.Character.Humanoid.JumpPower end
+   Callback = function()game.Players.LocalPlayer.Character.Humanoid.JumpPower end
 })
 
 section:Textbox({
    Text = "WalkSpeed",
-   Callback = function(txt)game.Players.LocalPlayer.Character.Humanoid.WalkSpeed end
+   Callback = function()game.Players.LocalPlayer.Character.Humanoid.WalkSpeed end
 })
 
 section:Textbox({
    Text = "JumpPower",
-   Callback = function(txt)game.Players.LocalPlayer.Character.Humanoid.JumpPower end
+   Callback = function()game.Players.LocalPlayer.Character.Humanoid.JumpPower end
 })
